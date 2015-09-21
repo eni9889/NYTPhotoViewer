@@ -6,7 +6,7 @@
 //
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 /**
  *  A class encompassing a series of stateless methods that require different calls on different operating systems.

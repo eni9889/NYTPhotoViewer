@@ -6,7 +6,7 @@
 //
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 /**
  *  An object that controls an interactive photo dismissal transition.

@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Brian Capps. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface NYTViewController : UIViewController
 
