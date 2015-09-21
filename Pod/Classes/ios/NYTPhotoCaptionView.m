@@ -60,6 +60,7 @@ static const CGFloat NYTPhotoCaptionViewVerticalMargin = 12.0;
     self.textLabel = [[UILabel alloc] init];
     self.textLabel.numberOfLines = 0;
     self.textLabel.translatesAutoresizingMaskIntoConstraints = NO;
+    self.textLabel.textColor = [UIColor whiteColor];
     [self addSubview:self.textLabel];
     
     NSLayoutConstraint *topConstraint = [NSLayoutConstraint constraintWithItem:self.textLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeTop multiplier:1.0 constant:NYTPhotoCaptionViewVerticalMargin];
